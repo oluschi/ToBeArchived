@@ -1,0 +1,270 @@
+/* Note to Self:  REMS:  think about how it will look on both mobile and computer*/
+
+/*@import url( )*/
+
+html{
+    position: all;
+     background-image:url(../img/bg_paper.jpeg);
+     /*background-color: #E6B1FF; */
+     cursor:  url('../img/arrow.png'), auto; 
+}
+
+body  {
+    -webkit-animation: fadein 5s; 
+    font: Redaction, serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.png img{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    top: -1vh;
+    size: 20%;
+}
+/* Header: TBA */
+
+h1{
+    z-index: 3;
+    color: black;
+    font-size: 5rem;
+    padding-left: 3rem;
+    width: 90vh;
+    
+}
+
+h1:hover{
+    color: #E6B1FF;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    cursor:  url('../img/arrow.png'),auto; 
+}
+
+
+.header a{
+    text-decoration: none;
+    cursor:  url('../img/arrow.png'),auto; 
+    font-family: Redaction, serif ;
+}
+
+.header p{
+    font-size: 6rem;
+    font-family: Redaction, serif;
+    width: 90vh;
+    margin-top: 0vh;
+
+}
+
+
+.underline img{
+    margin-left: 5vh;
+    margin-top: -35vh;
+    width: 44vh;
+    height: 15vh;
+}
+
+/* A Journey Into Curation of Fashion Styling */
+
+.subhead a{
+position: absolute;
+width: 616.87px;
+height: 123.64px;
+
+top: 15vh;
+left: 125vh;
+line-height: 43.76px;
+
+font-family: 'HAL Four Grotesk Test';
+font-weight: 400;
+font-size: 10vh;
+
+transform: rotate(4.59deg);
+}
+
+/* Border */
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+/* Left Side  */
+.left-side {
+  /*width: 100vw;*/
+  background-color: transparent;
+  margin-left: 3vw;
+}
+
+.row {
+    cursor: pointer; /* Change cursor to pointer on hover */
+    position:all;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    /*left: 15vh;*/
+
+    border-radius: 25px 25px 0 0;
+    border: 3.5px solid #000000;
+    /*border: 4px solid #f1a31b;*/
+
+    font-size: 2.5rem;
+    padding: 10px;
+    font-family: 'HAL Four Grotesk Test';
+    width: 30vw;
+    z-index: 10;
+    background-image:url(../img/bg_paper.jpeg);
+    }
+
+.row:hover{
+    background: #E6B1FF;
+    cursor:  url('../img/arrow.png'),auto;
+
+}
+
+.row:nth-child(3n+1){
+    margin-top: -10px;
+    
+}
+
+.row:nth-child(3n){
+    margin-left: 30vw;
+    margin-top: -10px;
+} 
+
+.row:nth-child(3n+2){
+    margin-left: 59.25vw;
+    margin-top: -10px;
+} 
+
+
+.rectangle{
+    position: static;
+    box-sizing: border-box;
+    width: 155vh;
+
+    margin-left: 18px;
+    background: transparent;
+    border: 2.5px solid #000000;
+    /*border: 2.5px solid #f1a31b;*/
+
+
+    border-radius: 50%/100px 0px 0px 0px;
+    margin-top: -15px;
+/*    box-shadow: -5px -5px 5px 10px #0000;*/
+
+}
+
+/* Right Side */
+.right-side {
+  width: 100%;
+  background-color: transparent;
+}
+
+/* POP UP */
+.popup{
+    display: none;
+    position: fixed;
+    top: 94vh;
+    left: 22vw;
+    width: 125vh;
+    height: 75vh;
+    margin-left: 400px;
+    margin-top: -300px;
+    padding: 20px;
+
+
+    transform: translate(-50%, -50%);
+    cursor: url(../img/arrow.png),auto;
+    background-color: #E6B1FF;
+    border: 4px solid #000000;
+    border-radius: 0px 15px 0 0;
+
+    -webkit-animation: fadein 5s;
+    -webkit-animation: fadeout 5s;
+    transition: width 0.5s ease-in-out;
+    z-index: 100;
+}
+
+.popup.active {
+  display: block;
+}
+
+.tap button{
+    position: fixed;
+    height: 75px;
+    width: 350px;
+    top: -9.25vh;
+    left: -0.25vw;
+
+    font-size: 3.5em;
+    border-radius: 15px 15px 0 0;
+    border: 4px solid #000000;
+    background-color: #E6B1FF;
+    
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px);
+    z-index: 2;
+    display: none;
+}
+
+/*Tik Tok Insert */
+.tiktok {
+    position: relative;
+    background-color: #E6B1FF;
+    padding: 40px;
+
+    width: 50%;
+    height: 80%;
+    z-index: 99;
+}
+
+iframe{
+    margin-left: -18vw;
+/*    transform: rotate(-4deg);*/
+}
+
+body.vp-center.showfocus {
+    height: 80%;
+}
+
+/* Outfit Details */
+.details{
+    position: absolute;
+    top: 5vh;
+    width: 100%;
+    left: 70vh;
+    z-index: 100;
+}
+
+ h2 {
+  font-size: 2.5rem;
+  font-family: 'HAL Four Grotesk Test';
+  /*color: #FC9C44;*/
+}
+
+.details{
+    font-size: 1.75rem;
+    font: Redaction, serif;
+}
+
+p{
+    font-family: 'HAL Four Grotesk Test';
+    width: 40%;
+}
+
+#description p{
+    width: 30%;
+}
+

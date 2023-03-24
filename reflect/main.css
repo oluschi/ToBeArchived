@@ -1,0 +1,243 @@
+/* Note to Self:  REMS:  think about how it will look on both mobile and computer*/
+
+/*@import url( ) og-orange#FC9C44 */
+
+html{
+     background-image:url(../img/bg_paper.jpeg);
+     /*background-color: #E6B1FF; */
+     cursor:  url('../img/arrow.png'), auto; 
+}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
+
+body  {
+    -webkit-animation: fadein 5s; 
+    font: Redaction, serif;
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Header: TBA */
+.png img{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    top: -1vh;
+    size: 20%;
+}
+/* Header: TBA */
+
+h1{
+    z-index: 3;
+    color: black;
+    font-size: 5rem;
+    padding-left: 3rem;
+    width: 90vh;
+    
+}
+
+h1:hover{
+    color: #E6B1FF;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    cursor:  url('../img/arrow.png'),auto; 
+}
+
+
+.header a{
+    text-decoration: none;
+    cursor:  url('../img/arrow.png'),auto; 
+    font-family: Redaction, serif ;
+}
+
+.header p{
+    font-size: 6rem;
+    font-family: Redaction, serif;
+    width: 90vh;
+    margin-top: 0vh;
+
+}
+
+
+.underline img{
+    margin-left: 5vh;
+    margin-top: -22vh;
+    width: 44vh;
+    height: 15vh;
+}
+
+/* A Journey Into Curation of Fashion Styling */
+/*
+.subhead a{
+position: absolute;
+width: 616.87px;
+height: 123.64px;
+
+top: 32vh;
+left: 7vh;
+line-height: 43.76px;
+
+font-family: 'HAL Four Grotesk Test';
+font-weight: 400;
+font-size: 8vh;
+
+transform: rotate(-4.59deg);
+color: black;
+}*/
+.subhead a{
+position: absolute;
+width: 616.87px;
+height: 123.64px;
+color: black;
+
+top: 15vh;
+left: 125vh;
+line-height: 43.76px;
+
+font-family: 'HAL Four Grotesk Test';
+font-weight: 400;
+font-size: 10vh;
+
+transform: rotate(4.59deg);
+}
+
+a:hover{
+    color: #E6B1FF;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+/* Q & A */
+
+.qanda{
+    padding-left: 20vh;
+    padding-right: 20vh;
+
+}
+
+.questions{
+    color: #e5b071;
+    font-size: 1.5rem;
+    font-family: Redaction, serif ;
+
+    z-index: 2;
+
+}
+
+.questions h2{
+    text-align: left;
+    padding-left: 20px;
+}
+
+.rectangle{
+    margin-top: -20px;
+    width: 135vh;
+
+    box-sizing: border-box;
+    background: transparent;
+    border: 2.5px solid #e5b071 ;
+}
+
+.answers {
+    color: black;
+    z-index: 3;
+}
+
+.answers p{
+    font-size: 1.25rem;
+    font-family: 'HAL Four Grotesk Test';
+    padding: 0px 40px 0px 40px;
+}
+
+/*DRAG & HOLD IMG */
+
+.draggable{
+   
+}
+
+#drag-container1 {
+  position: relative;
+}
+
+.drag-image1 {
+  position: absolute;
+  width: 30%;
+  left: 71vw;
+  top: -40vh;
+}
+
+#drag-container2 {
+  position: relative;
+}
+
+.drag-image2{
+  position: absolute;
+  width: 25%;
+  left: 0vw;
+  transform: rotate(4.59deg);
+  z-index: -1;
+
+}
+
+#drag-container3 {
+  position: relative;
+}
+
+.drag-image3{
+  position: absolute;
+  width: 20%;
+  top: 45vh;
+  left: 85vw;
+  transform: rotate(-5.9deg);
+  z-index: -1;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*h2 {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}*/
+
+
+
